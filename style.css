@@ -1,0 +1,135 @@
+html,
+body{
+    background: linear-gradient(to right,rgb(36, 35, 35),rgb(133, 133, 140));
+    margin: 0;
+    padding: 0;
+}
+.nav1 a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: azure;
+    font-family: "JetBrains Mono", monospace;
+    
+}
+
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav1{
+   background: linear-gradient(to right, #1f1f20, #5a5a60);
+
+
+   /* background:transparent;
+    backdrop-filter: blur(1000px);*/
+    padding: 2px;
+  
+}
+.nav1 a:hover{
+    background-color: #453d3d;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.container2{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    height: 100vh;
+    width: 100wh;
+     
+    
+}
+.block{
+    border:1px solid rgb(90, 71, 71);
+    background:transparent;
+   
+}
+.block1{
+   grid-column: 1/4;
+   grid-row:1/3 ;
+   display: flex;
+   justify-content: left;
+   flex-direction: row;
+   align-items:left;
+   flex-wrap: wrap;
+   border-radius: 8px;
+   padding: 20px
+   
+   
+   
+   
+}
+.text1{
+    color: #1d1c1c;
+    font-family: "JetBrains Mono", monospace;
+    margin: 0;
+    
+}
+.block2{
+    grid-row: 1/3;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.block4{
+    grid-column: 1/5;
+    border-radius: 8px;
+}
+.block3{
+    grid-column: 1/5;
+    grid-row:3/7;
+    border-radius: 8px;
+}
+.profile{
+    
+    display: inline;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    height: 350px;
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(900px);
+    border-radius: 20px;
+    flex-wrap: wrap;
+ 
+    
+
+}
+.profile img{
+    border-radius: 50%;
+    border:1px solid rgb(0, 0, 0);
+}
+.innergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    
+}
+.contentleft{
+    
+    grid-column: 2/4;
+    background:transparent;
+    backdrop-filter: blur(50px);
+    margin-left: 15px;
+    border-radius: 19px;
+    padding: 12px;
+    
+}
+.inbc{
+   /*somthing to be written*/
+    grid-column: 1/4;
+}
+p{
+   line-height: 1.6;
+   font-family: "JetBrains Mono", monospace;
+ 
+}
+.abt{
+    font-family: "JetBrains Mono", monospace;
+    color: #1d1c1c;
+}
