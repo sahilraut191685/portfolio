@@ -16,3 +16,5 @@ Welcome to my personal portfolio! This repository showcases my projects, skills,
 1. Clone the repository:
    ```bash
    git clone https://github.com/sahilraut191685/portfolio.git
+
+ **THIS REPO IS TEMPORARAY CLOSED AND START AFTER 1NOV 2026**
